@@ -1,0 +1,63 @@
+/* Dark Theme Global Styles */
+body {
+    background-color: #121212; /* Dark Background */
+    color: #e0e0e0; /* Light Text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styling */
+  .container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #1e1e1e; /* Darker Section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #ff9800; /* Bright Orange for Highlights */
+  }
+  
+  /* Links */
+  a {
+    color: #ff9800;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff5722;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Form Inputs */
+  input, textarea {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #bbb;
+  }
+  
